@@ -14,11 +14,12 @@ public class Main {
       if ( num == 10 ) {
          System.out.println("Not happening buddy");
             if (luck >= 0.5){
-
-            }
-            else if (luck < 0.5){
                System.out.println("LUCKY!");
             }
+            else {
+               System.out.println("not lucky");
+            }
+           
       }
       else if ( num == 9 ){
          System.out.println ("If you get lucky");
